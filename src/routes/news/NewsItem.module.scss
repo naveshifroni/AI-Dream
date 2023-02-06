@@ -1,0 +1,59 @@
+// mixin ~ scss function with params
+ @mixin line-clamp($numLines : 1, $lineHeight: 1.412) {
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: $numLines;
+  -webkit-box-orient: vertical;
+  max-height: $numLines * $lineHeight + unquote('em');
+
+  text-align: justify;
+  text-justify: distribute;
+} 
+.item{
+/* background-color: rgb(212, 180, 180) */ 
+      background-color: #ddb0cd; 
+      margin: 0 !important;
+      width: 35vw;
+   
+}
+.item:hover{
+    box-shadow: 1px 1px rgb(45, 177, 155) !important;
+        border-radius: 5px !important;
+
+}
+
+.title{
+    margin: 7px;
+    padding: 5px;
+    width: 50%;
+    background-color: rgb(226, 152, 228);
+    box-shadow: 5px 5px rgb(45, 177, 155);
+    border-radius: 5px;
+    @include line-clamp($numLines: 2, $lineHeight: 2 );
+    
+}
+
+.link{
+    margin-top: 9.5px;
+    padding: 3px;
+    text-decoration: none;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(45, 177, 155);
+   
+    
+    border-radius: 5px;
+    &::after{
+        content: '...';
+    }
+}
+.link:hover{
+    color: #ffffff;
+    background-color: rgb(226, 152, 228);
+    box-shadow: 5px 5px rgb(45, 177, 155);
+}
+
+
