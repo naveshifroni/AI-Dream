@@ -8,17 +8,25 @@
   -webkit-line-clamp: $numLines;
   -webkit-box-orient: vertical;
   max-height: $numLines * $lineHeight + unquote('em');
-
-  text-align: justify;
-  text-justify: distribute;
+/* text-align: justify; */
+text-align: center;
+    text-justify: inter-word;
+ /*  text-align: justify;
+  text-justify: distribute; */
 } 
-.item{
-/* background-color: rgb(212, 180, 180) */ 
-      background-color: #ddb0cd; 
+/* .item{
+
+      background-color: #f0e1ea; 
       margin: 0 !important;
       width: 35vw;
+      height: 400px;
+    font-family: 'Secular One', sans-serif !important; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
    
-}
+} */
 .item:hover{
     box-shadow: 1px 1px rgb(45, 177, 155) !important;
         border-radius: 5px !important;
@@ -27,12 +35,13 @@
 
 .title{
     margin: 7px;
-    padding: 5px;
-    width: 50%;
-    background-color: rgb(226, 152, 228);
+    padding: 3px;
+    width: 80%;
+    background-color: #e9d5e0;
     box-shadow: 5px 5px rgb(45, 177, 155);
     border-radius: 5px;
     @include line-clamp($numLines: 2, $lineHeight: 2 );
+    font-size: 18px;
     
 }
 
@@ -40,9 +49,9 @@
     margin-top: 9.5px;
     padding: 3px;
     text-decoration: none;
-    font-size: xx-large;
-    font-style: italic;
-    color: rgb(45, 177, 155);
+    
+  
+    color: rgb(10, 10, 10);
    
     
     border-radius: 5px;
@@ -52,8 +61,18 @@
 }
 .link:hover{
     color: #ffffff;
-    background-color: rgb(226, 152, 228);
+    background-color: rgb(233, 183, 235);
     box-shadow: 5px 5px rgb(45, 177, 155);
+}
+.image{
+    height: 210px !important;
+}
+
+@media (max-width: 900px){
+    .image{
+        height: 100px !important;
+    }
+  
 }
 
 

@@ -1,9 +1,31 @@
 .title{
-    background-color:  rgb(201, 175, 175);
+    background-color:  rgb(243, 234, 234);
     padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .add{
-    background-color:rgb(244, 240, 245) !important;
+    background-color:rgb(252, 248, 253) !important;
     padding-bottom: 20px;
+    margin-bottom: 25px;
 
+}
+.pair{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.label{
+    margin-left: 60px;
+}
+.input{
+    margin-right: 60px;
+    width: 150px;
+}
+.button{
+    background-color: #ebdada !important;
+}
+.button:hover {
+    background-color: #c8ebec !important;
 }

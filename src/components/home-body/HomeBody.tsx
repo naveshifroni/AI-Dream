@@ -34,4 +34,4 @@ We are a new company who believes that AI has a place in every business and you 
   )
 }
 
-export default HomeBody
+export default HomeBody;

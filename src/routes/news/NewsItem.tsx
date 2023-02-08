@@ -12,7 +12,7 @@ const NewsItem = ({ title, urlToImage, id }: NewsItemProps) => {
           currentTarget.src = defaultImage;
           currentTarget.onerror = null; //prevent loops
         }}
-        className={`w-50 shadow-lg bg-white rounded card p-3 ${design.image}`}
+        className={`shadow-lg bg-white rounded card p-3 ${design.image}`}
         alt={title}
         src={urlToImage}
       />

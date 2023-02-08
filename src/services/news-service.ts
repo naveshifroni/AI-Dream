@@ -2,7 +2,7 @@ import { Article } from "../features/news/news";
 
 import {v4} from 'uuid';
 export const newsApiUrl =
-  "https://newsapi.org/v2/everything?q=artificialintelligence&from=2023-01-06&sortBy=publishedAt&apiKey=aab2da8b265a491aa91301259c6b9050";
+  "https://newsapi.org/v2/everything?q=artificialintelligence&from=2023-01-08&sortBy=publishedAt&apiKey=e4bb0a6caee842d4ace66774b67e9a83";
 
 export const defaultImage =
   "https://awlights.com/wp-content/uploads/sites/31/2017/05/placeholder-news.jpg";

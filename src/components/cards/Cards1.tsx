@@ -7,8 +7,8 @@ const Cards1 = () => {
 
     <div>
 
- <div className='d-flex container pb-4'>
-   <Card style={{ width: '18rem' }}>
+ <div className='d-flex flex-wrap container pb-4 align-items-center justify-content-center'>
+   <Card style={{ width: '17.3rem', height: '20rem'}}>
      <IoMdInfinite className='align-self-center' size={'10em'} />
       <Card.Body>
         <Card.Title> Conection </Card.Title>
@@ -19,7 +19,7 @@ const Cards1 = () => {
       </Card.Body>
     </Card>
 
-     <Card style={{ width: '18rem' }}>
+     <Card style={{ width: '17.3rem', height: '20rem'  }}>
       <IoIosPlanet className='align-self-center' size={'10em'} />
       <Card.Body>
         <Card.Title> Groundbreaking </Card.Title>
@@ -31,7 +31,7 @@ const Cards1 = () => {
       </Card.Body>
     </Card>
 
-     <Card style={{ width: '18rem' }}>
+     <Card style={{ width: '17.3rem', height: '20rem' }}>
       <FaConnectdevelop className='align-self-center p-3' size={'9em'} />
       <Card.Body>
         <Card.Title> Development </Card.Title>
@@ -43,7 +43,7 @@ const Cards1 = () => {
       </Card.Body>
     </Card>
 
-     <Card style={{ width: '18rem' }}>
+     <Card style={{ width: '17.3rem', height: '20rem' }}>
       <IoIosFingerPrint className='align-self-center p-3' size={'9em'} />
       <Card.Body>
         <Card.Title> Identity </Card.Title>
