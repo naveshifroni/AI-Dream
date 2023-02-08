@@ -27,8 +27,11 @@ text-align: center;
     
    
 } */
+.item{
+    background-color: rgb(246, 248, 248);
+}
 .item:hover{
-    box-shadow: 1px 1px rgb(45, 177, 155) !important;
+    box-shadow: 1px 1px rgb(255, 255, 255) !important;
         border-radius: 5px !important;
 
 }
@@ -37,8 +40,8 @@ text-align: center;
     margin: 7px;
     padding: 3px;
     width: 80%;
-    background-color: #e9d5e0;
-    box-shadow: 5px 5px rgb(45, 177, 155);
+    background-color: #f5edf1;
+    box-shadow: 5px 5px rgb(197, 224, 220);
     border-radius: 5px;
     @include line-clamp($numLines: 2, $lineHeight: 2 );
     font-size: 18px;
@@ -61,8 +64,8 @@ text-align: center;
 }
 .link:hover{
     color: #ffffff;
-    background-color: rgb(233, 183, 235);
-    box-shadow: 5px 5px rgb(45, 177, 155);
+    background-color: rgb(237, 212, 238);
+    box-shadow: 5px 5px rgb(168, 207, 201);
 }
 .image{
     height: 210px !important;
