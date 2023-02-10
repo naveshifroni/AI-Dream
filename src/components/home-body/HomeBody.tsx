@@ -10,7 +10,7 @@ const HomeBody = () => {
   return (
     <>
     <div className={`container ${design.background}`}>
-      <h2 className='d-flex p-5'> Live To Create </h2>
+      <h2 className='p-5'> Live To Create </h2>
 
       <div className={design.background}>
            <div className={design.boxes}>
@@ -23,9 +23,9 @@ We are a new company who believes that AI has a place in every business and you 
 </p>
 
      </div>
-     <img src={bg} alt='girl' className={design.girl}/>
-     <img src={comp} alt='girl' className={design.comp}/> 
-     <img src={girl} alt='girl' className={design.bg}/>    
+     <img src={bg} alt='girl' className={design.bg}/>
+     <img src={comp} alt='comp' className={design.comp}/> 
+     <img src={girl} alt='bg' className={design.girl}/>    
      </div>
 </div>
     </div>

@@ -13,9 +13,9 @@ const NewsView = () => {
       {loading && <div>Loading...</div>}
       {error && <div>{error}</div>}
 
-      {articles.length > 0 && <h2 className="text-center">Latest AI News Articles: </h2>}
+      {articles.length > 0 && <h2 className="text-center">News</h2>}
       {articles.length > 0 && (
-        <div className="d-flex flex-wrap justify-content-center align-items-center">
+        <div className={`d-flex flex-wrap justify-content-center align-items-center ${design.article}`}>
           {articles.map((a) => (
             <NewsItem key={a.url} {...a} />
           ))}

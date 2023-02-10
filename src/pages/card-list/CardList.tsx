@@ -12,7 +12,7 @@ const CardList = () => {
     <div className={design.background}>
       <HomeBody />
       <div className={`container ${design.background}`}>
-        <div>
+       
           <div className={design.bots2}>
             <h2 className={design.headerbots}>
              Our custom AI friends for hire
@@ -30,7 +30,6 @@ const CardList = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };

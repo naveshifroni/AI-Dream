@@ -29,6 +29,7 @@ text-align: center;
 } */
 .item{
     background-color: rgb(246, 248, 248);
+    
 }
 .item:hover{
     box-shadow: 1px 1px rgb(255, 255, 255) !important;
@@ -37,6 +38,7 @@ text-align: center;
 }
 
 .title{
+    text-align: center;
     margin: 7px;
     padding: 3px;
     width: 80%;
@@ -73,8 +75,9 @@ text-align: center;
 
 @media (max-width: 900px){
     .image{
-        height: 100px !important;
+        height: 90px !important;
     }
+   
   
 }
 

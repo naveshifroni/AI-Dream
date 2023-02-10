@@ -10,5 +10,11 @@
 
 }
 .title{
-    font-size: 18px;
+    font-size: 19px;
+}
+.rows{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

@@ -28,15 +28,15 @@ const AddCard = () => {
 
 
   return (
-    <>
-      <div className={`d-flex card w-50 ${design.add}`}>
+    
+      <div className={`d-flex card ${design.add}`}>
         <h3 className={design.title}> Create Your Own Home Made Friend </h3>
 
         <hr />
 
         <div className={design.pair}>
           <div className={design.label}>Name</div>
-          <div className="d-flex text-right">
+          <div>
             <input
               className={design.input}
               value={name}
@@ -145,7 +145,7 @@ const AddCard = () => {
           Add Card{" "}
         </button>
       </div>
-    </>
+   
   );
 }
 

@@ -15,7 +15,7 @@ const CardItem = (props: Card) => {
    <div className='card p-2 d-flex'>
       <h2>{props.name}</h2>
       <img src={props.img} alt='img' className={design.preview}/>
-      <p>
+      <p className={design.description}>
       About me:
       {props.description}
       </p>

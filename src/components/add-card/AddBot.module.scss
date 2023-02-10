@@ -8,6 +8,7 @@
     background-color:rgb(252, 248, 253) !important;
     padding-bottom: 20px;
     margin-bottom: 25px;
+    width: 48vw;
 
 }
 .pair{
@@ -17,15 +18,35 @@
     margin-bottom: 15px;
 }
 .label{
-    margin-left: 60px;
+    margin-left: 80px;
 }
 .input{
-    margin-right: 60px;
+    text-align: center;
     width: 150px;
+    margin-right: 80px;
 }
 .button{
     background-color: #ebdada !important;
 }
 .button:hover {
     background-color: #c8ebec !important;
+}
+
+@media (max-width: 900px){
+    .add{
+        width: 78vw !important;
+        display: flex;
+        
+    }
+    .pair{
+        margin: auto;
+    }
+    .label{
+        width: 50vw;
+        margin: auto;
+    }
+    .input{
+        text-align: center;
+        margin: auto;
+    }
 }
