@@ -23,11 +23,11 @@ const NewsDetailsView = () => {
 
   //if we got thus far: article is not undefined
   return (
-    <div className="w-75 mx-auto d-flex flex-column justify-content-center align-items-center">
-      <h3>{title}</h3>
+    <div className="w-75 mx-auto d-flex flex-column justify-content-center align-items-center m-2">
+      <h3 className="m-2">{title}</h3>
 
       <button
-        className="btn"
+        className="btn m-2"
         onClick={() => dispatch(toggleFavorite(article.id))}
       >
         {isFavorite && <FaHeart />}
@@ -35,7 +35,7 @@ const NewsDetailsView = () => {
       </button>
 
       <img
-        className="w-100 shadow-lg p-3 bg-white rounded"
+        className="w-75 shadow-lg p-3 bg-white rounded m-2"
         src={urlToImage}
         alt={title}
       />
