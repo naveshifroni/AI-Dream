@@ -1,7 +1,7 @@
 import { Navigate, useNavigate, useParams } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { toggleFavorite } from "../../features/news/newsSlice";
-import css from "./NewsDetailsView.module.scss";
+import design from "./NewsDetailsView.module.scss";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 
 const NewsDetailsView = () => {
@@ -39,9 +39,9 @@ const NewsDetailsView = () => {
         src={urlToImage}
         alt={title}
       />
-      <p className={css.p}>{description}</p>
+      <p className={design.p}>{description}</p>
       <button
-        className="btn btn-primary w-100"
+        className= {`btn w-100 ${design.button}`}
         onClick={() => {
           navigate(-1);
         }}

@@ -1,7 +1,7 @@
 import { useAppSelector } from "../../app/hooks"
 import CardItem from "../card-item/CardItem"
 import design from './CardList.module.scss'
-import AddBot from "../../components/add-card/AddBot"
+import AddBot from "../../components/add-bot/AddBot"
 import HomeBody from "../../components/home-body/HomeBody"
 
 

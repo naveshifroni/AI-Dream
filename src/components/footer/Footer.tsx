@@ -45,7 +45,7 @@ function Footer() {
         </div>
       </div>
       <hr />
-      <div className="d-flex">
+      <div className={`d-flex container flex-wrap ${design.p}`}>
         <p className="col-sm text-center">
           &copy;{new Date().getFullYear()} Nave Shifroni | All rights reserved |
           Terms Of Service | Privacy

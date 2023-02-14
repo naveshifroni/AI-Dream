@@ -31,6 +31,23 @@
 .button:hover {
     background-color: #c8ebec !important;
 }
+.label2{
+    margin-bottom: 0;
+    margin-left: 80px;
+}
+.input2{
+    height: 150px !important;
+    width: 150px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+.pair2{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
 
 @media (max-width: 900px){
     .add{
@@ -41,12 +58,24 @@
     .pair{
         margin: auto;
     }
+         .pair2 {
+             margin: auto;
+             flex-direction: column;
+         }
     .label{
         width: 50vw;
         margin: auto;
     }
+        .label2 {
+            width: 50vw;
+            margin: auto;
+        }
     .input{
         text-align: center;
         margin: auto;
     }
+        .input2 {
+            text-align: center;
+            margin: auto;
+        }
 }

@@ -8,7 +8,7 @@ const Home = () => {
   return (
 
     <div>
-      <div className={design.background}>
+      <div className={` ${design.background}`}>
     <img src={topImg} alt='topImg' className={design.img} />
 
     <Title/>

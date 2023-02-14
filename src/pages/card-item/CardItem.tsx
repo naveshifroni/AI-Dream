@@ -16,7 +16,8 @@ const CardItem = (props: Card) => {
       <h2>{props.name}</h2>
       <img src={props.img} alt='img' className={design.preview}/>
       <p className={design.description}>
-      About me:
+      About Me:
+      <br />
       {props.description}
       </p>
        <button className={`btn m-auto ${design.buttons}`} onClick={()=>{

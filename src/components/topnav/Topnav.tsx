@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 
 
+
 // yarn add react-bootstrap
 const Topnav = () => {
   return (
@@ -29,12 +30,7 @@ const Topnav = () => {
              <NavLink className="nav-link" to="/favorites">
               Favorite articles 
             </NavLink>
-            <NavLink className="nav-link" to="/contact">
-              Contact
-            </NavLink>
-          
-          
-          </Nav>
+           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
