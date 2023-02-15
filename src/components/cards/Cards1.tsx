@@ -24,8 +24,7 @@ const Cards1 = () => {
       <Card.Body>
         <Card.Title> Groundbreaking </Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Our team is proud to present to you our custom AI using cutting edge Quantum Computing Technology.
         </Card.Text>
        
       </Card.Body>
@@ -36,8 +35,7 @@ const Cards1 = () => {
       <Card.Body>
         <Card.Title> Development </Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Reach out with our custom made AI Robots and expirence growth in your comunication and understanding.
         </Card.Text>
         
       </Card.Body>
@@ -48,8 +46,7 @@ const Cards1 = () => {
       <Card.Body>
         <Card.Title> Identity </Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Create new identities with our AI-Generator you'll feel right at home with your intellegent and human-like creations .
         </Card.Text>
         
       </Card.Body>
