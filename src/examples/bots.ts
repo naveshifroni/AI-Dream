@@ -8,7 +8,7 @@ export const cards: Card[] = [
     name: "Jack",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI1hikE9O4xvLiQXopFgQ918KGE3-X2hroEw&usqp=CAU",
     description:
-      " If you feel A bit lost in life's pathes, and you're looking for some reliable, advice I'm your man. ",
+      " If you feel A bit lost in life's pathes, and you're looking for some reliable advice I'm your man. ",
     age: 47,
     gender: "Male",
     smart: false,
@@ -20,7 +20,7 @@ export const cards: Card[] = [
     name: "Jane",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHUUVqb-C8w69FcPlfGxZF-75RZiqAJuWGdA&usqp=CAU",
     description:
-      "Shoping and partying is my thing , and Life is too short for thinking too much so if you wanna have some fun call me",
+      "Shoping and parties are my thing , and Life is too short for thinking too much so if you wanna have some fun call me",
     age: 22,
     gender: "Female",
     smart: true,
@@ -40,3 +40,4 @@ export const cards: Card[] = [
     sensitive: true,
   },
 ];
+
